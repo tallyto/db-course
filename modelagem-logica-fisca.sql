@@ -40,7 +40,7 @@ VALUES
         'JOAO@GMAIL.COM',
         '12345678901',
         '999999999',
-        'RUA 1, 123'
+        '233 Sawayn Shoals Apt. 223 - South Jordan, MA / 17573'
     );
 
 INSERT INTO
@@ -52,7 +52,7 @@ VALUES
         'MARIA@GMAIL.COM',
         '12345678902',
         '999999998',
-        'RUA 2, 123'
+        '26740 Benton Point Apt. 164 - Manchester, VT / 21362'
     );
 
 INSERT INTO
@@ -64,17 +64,17 @@ VALUES
         'JOSE@GMAIL.COM',
         '12345678903',
         '999999997',
-        'RUA 3, 123'
+        '62861 Jaiden Square Suite 975 - Normal, MO / 98645'
     );
 
 -- FORMA 02 - Informando as colunas
 
 INSERT INTO CLIENTE
     (NOME, SEXO, EMAIL, CPF, TELEFONE, ENDERECO) VALUES
-    ('GUSTAVO', 'M', 'GUSTAVO@GMAIL.COM', '12345678904', '999999996', 'RUA 4, 123');
+    ('GUSTAVO', 'M', 'GUSTAVO@GMAIL.COM', '12345678904', '999999996', '829 Cristal Fork Suite 233 - Mankato, AL / 31513');
 
 -- FORMA 03 - INSERT COMPACTO -> SOMENTE MYSQL
 
 INSERT INTO CLIENTE VALUES
-    ('GILBERTO', 'M', 'GILBERTO@GMAIL.COM', '12345678905', '999999995', 'RUA 5, 123'),
-    ('GABRIELA', 'F', 'GABRIELA@GLOBO.COM', '12345678906', '999999994', 'RUA 6, 123');
+    ('GILBERTO', 'M', 'GILBERTO@GMAIL.COM', '12345678905', '999999995', '3562 Bayer Fords Suite 230 - Washington, NM / 86547'),
+    ('GABRIELA', 'F', 'GABRIELA@GLOBO.COM', '12345678906', '999999994', '7506 Gerhold Rest Apt. 146 - Anchorage, MD / 60961');
